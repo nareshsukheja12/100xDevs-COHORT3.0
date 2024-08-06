@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    font-family: "Be Vietnam Pro", "Be Vietnam Pro Placeholder", sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: 150;
+}
+.logo {
+    font-size: 20px;
+}
+ul {
+    list-style-type:none;
+}
+nav {
+    margin-top: 1.8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.nav-itmes {
+    padding:16px 50px;
+    border: solid grey 1.5px;
+    border-radius: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    box-sizing: content-box;
+}
+.login {
+    border: solid grey 1.5px;
+    border-radius: 30px;
+    padding:16px 25px;
+}
+main {
+    text-align: center;
+}
